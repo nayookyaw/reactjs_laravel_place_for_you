@@ -25,8 +25,10 @@ For Frontend - npm start
  - Memcached
  - Logging
 
+ <br>
+
  - React js
- - nodejs (14.17.0), npm (6.14.13), >create-react-app(4.0.3)
+ - nodejs (14.17.0), npm (6.14.13), create-react-app(4.0.3)
 
 # Environment Setup 
 For Backend - Vagrant (Homestead), Virtual Box (Linux 20.04)

@@ -1,0 +1,69 @@
+.headerWrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Library Customized By Nay Oo Kyaw */
+.navbar-brand {
+    color : aliceblue !important;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+    color : aliceblue !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+  
+.navbar-toggler {
+    border: 1px solid rgba(255, 255, 255);
+}
+
+.popover-header {
+    color: #1c1c1b;
+    text-align: center;
+}
+
+.popover-body {
+    background-color: black;
+    color: aliceblue !important;
+}
+
+#EZDrawer__container {
+    background-color: black !important;
+    color: aliceblue;
+}
+/* End Library Customized By Nay Oo Kyaw */
+
+.sideBarWrapper {
+    position : absolute;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.logoImage {
+    width: 90px;
+    height: 50px;
+}
+
+.logoText {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.logoSideMenu {
+    width: 110px;
+    height: 100px;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}

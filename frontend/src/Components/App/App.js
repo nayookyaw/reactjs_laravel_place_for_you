@@ -3,15 +3,14 @@ import './App.css';
 
 import Header from '../Shared/Header';
 import Footer from '../Shared/Footer';
-
-import Nav from '../Nav/Nav';
+import Sidebar from '../Shared/Sidebar';
 
 class App extends React.Component {
   constructor () {
     super();
     this.state = 
       {
-        color : "red"
+        test : "test"
       };
   }
 
@@ -20,7 +19,9 @@ class App extends React.Component {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Sidebar/>
+        
+        {/* <Nav/> */}
         <Footer/>
       </div>
       

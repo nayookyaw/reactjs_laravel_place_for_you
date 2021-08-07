@@ -1,7 +1,7 @@
 # Author
-/* 
-    Nay Oo Kyaw 
-    nayookyaw.nok@gmail.com
+/* <br>
+    Nay Oo Kyaw <br>
+    nayookyaw.nok@gmail.com <br>
 */
 
 # Laravel-ReactJS Booking Place Project

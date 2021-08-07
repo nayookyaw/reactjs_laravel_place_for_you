@@ -1,0 +1,67 @@
+.side_container {
+    display: flow-root;
+    /* grid-template-columns: 0.30fr 0.70fr; */
+    grid-template-rows: auto;
+    /* grid-template-areas: "header header" "sidebar main"; */
+}
+
+.mobileview {
+    grid-template-columns: 0fr 1fr;
+}
+
+.sidebar_small_wrap {
+    /* grid-area: sidebar_small; */
+    /* background-color: yellow; */
+}
+
+.sidebar_expand {
+    background-color: red;
+    width: 30px;
+    cursor: pointer;
+}
+
+.expand_menu {
+    width: 100%;
+}
+
+.small_sidebar {
+    float: left;
+    width: 30px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.small_sidebar ul {
+    padding: 0px;
+}
+
+.small_sidebar ul li {
+    padding: 20px 0px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightblue;
+    float: left;
+    text-align: left;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0px;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+    color: azure;
+}
+
+.main {
+    grid-area: main;
+    background-color: green;
+}

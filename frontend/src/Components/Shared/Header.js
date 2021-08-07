@@ -9,7 +9,7 @@ import { IoLogOut } from "react-icons/io5";
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 
-import './Header.css';
+import './css/Header.css';
 
 import logoOnly from '../../assets/img/logo.JPG';
 
@@ -31,11 +31,16 @@ class Header extends Component {
         window.addEventListener('resize', this.handleResize);
     }
 
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.handleResize);
+    }
+
     handleResize() {
         this.setState({ isDrawerOpen : false , isUserPopOver: false });
     }
 
     handleDrawer() {
+        console.log (this.state.isDrawerOpen)
         this.setState({ isDrawerOpen: !this.state.isDrawerOpen });
     }
 
@@ -47,7 +52,7 @@ class Header extends Component {
         const { isDrawerOpen } = this.state
 
         return (
-            <div className="headerWrapper">
+            <div id="headerWrapper">
                 <Navbar className='sticky-top' light expand="md">
                     <NavbarBrand>
                         <img src={logoOnly} className='logoImage'/>
@@ -68,12 +73,13 @@ class Header extends Component {
                                 <span id= "userPopOver" style={{ cursor: 'pointer' }}><FaUserCircle size={28} color={"#bde2f4"}/></span>
 
                                 <Popover placement="bottom" isOpen={ this.state.isUserPopOver } target="userPopOver" toggle={ this.handleUserPopOver }>
-                                    <PopoverHeader> <FcBusinessman/> </PopoverHeader>
+                                    <PopoverHeader> Account  </PopoverHeader>
                                     <PopoverBody>
-                                        User Name <br/>
-                                        09970486117
+                                        <FcBusinessman size={20}/> &nbsp;&nbsp; <span> User Name </span> <br/>
+                                        <FcPhone size={20}/> &nbsp;&nbsp; <span>09970486117</span>
+                                        
                                         <hr/>
-                                        <span className="logout">Logout <IoLogOut size={20}/> </span>
+                                        <IoLogOut size={20}/> &nbsp;&nbsp; <span className="logout">Logout </span>
                                         
                                     </PopoverBody>
                                 </Popover>

@@ -1,8 +1,7 @@
-# Author
-/* <br>
+
     Nay Oo Kyaw <br>
     nayookyaw.nok@gmail.com <br>
-*/
+
 
 # Laravel-ReactJS Booking Place Project
 This project is related to Place Mangement Dashboard <br>

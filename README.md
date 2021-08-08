@@ -1,6 +1,6 @@
 
-    Nay Oo Kyaw <br>
-    nayookyaw.nok@gmail.com <br>
+    Nay Oo Kyaw 
+    nayookyaw.nok@gmail.com 
 
 
 # Laravel-ReactJS Booking Place Project

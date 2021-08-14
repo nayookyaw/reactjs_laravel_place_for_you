@@ -17,8 +17,8 @@ The Operator can see everything (highest role). Operator can see transactions (e
 # How to run this project
 You need to run two services (backend and frontend)
 
-For Backend - vagrant up
-For Frontend - npm start
+- For Backend - vagrant up
+- For Frontend - npm start
 
 # Main Programming Languages
  - PHP 8.0.5 (laravel 8.42.1), MySql
